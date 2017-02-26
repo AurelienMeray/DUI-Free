@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12113" systemVersion="16E163f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12078"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="00t-y2-Ov2">
+                                <rect key="frame" x="53" y="197" width="269" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="00t-y2-Ov2" secondAttribute="height" multiplier="269:105" id="Jt9-GZ-NCN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created By: Aurelien Meray" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6N-On-VMO">
+                                <rect key="frame" x="60" y="638" width="255" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43628913164138794" green="0.60782098770141602" blue="0.81970387697219849" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="00t-y2-Ov2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="37" id="2gY-qq-KCz"/>
+                            <constraint firstItem="00t-y2-Ov2" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="177" id="Ced-B2-dDc"/>
+                            <constraint firstItem="00t-y2-Ov2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PKW-lv-inM"/>
+                            <constraint firstItem="M6N-On-VMO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="44" id="lKF-Cf-Js8"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="M6N-On-VMO" secondAttribute="bottom" constant="8" symbolic="YES" id="u43-0Y-ulo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="00t-y2-Ov2" secondAttribute="bottom" constant="365" id="xIe-m1-syL"/>
+                            <constraint firstItem="M6N-On-VMO" firstAttribute="centerX" secondItem="00t-y2-Ov2" secondAttribute="centerX" id="yRy-3K-u43"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="897" height="355"/>
+    </resources>
+</document>
